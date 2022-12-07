@@ -5,6 +5,6 @@ if len(string) > 10:
 elif len(string) < 10:
     print("string not long enough")
 result = ""
-for i in range(0, len(string)):
-    result = result + string[i]
+for i in string:
+    result = result + i
     print(result)
